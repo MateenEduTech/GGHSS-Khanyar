@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GGHSS Khanyar Dashboard</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+
+<style>
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background: #0f172a;
+  color: white;
+}
+
+/* HEADER */
+.header {
+  background: linear-gradient(90deg, #1e3a8a, #2563eb);
+  padding: 15px;
+  text-align: center;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 22px;
+}
+
+.header p {
+  margin: 5px 0 0;
+  font-size: 12px;
+}
+
+/* GRID */
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 20px;
+  padding: 25px;
+}
+
+/* CARD */
+.card {
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 14px;
+  text-decoration: none;
+  color: white;
+  transition: 0.3s;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.4);
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  background: #334155;
+}
+
+.card h3 {
+  margin: 0 0 10px;
+  font-size: 16px;
+}
+
+.card p {
+  font-size: 12px;
+  opacity: 0.7;
+}
+
+/* FOOTER */
+.footer {
+  text-align: center;
+  padding: 15px;
+  font-size: 11px;
+  opacity: 0.6;
+}
+</style>
+</head>
+
+<body>
+
+<div class="header">
+  <h1>GGHSS Khanyar Digital Dashboard</h1>
+  <p>Developed by Mateen Yousuf — Teacher — School Education Department J&K</p>
+</div>
+
+<div class="container">
+
+  <a class="card" href="Dashboard/">
+    <h3>📊 Main Dashboard</h3>
+    <p>Overview of school performance</p>
+  </a>
+
+  <a class="card" href="Admission Dashboard/">
+    <h3>📝 Admissions</h3>
+    <p>Student admission system</p>
+  </a>
+
+  <a class="card" href="Attendance/">
+    <h3>📅 Attendance</h3>
+    <p>Track daily attendance</p>
+  </a>
+
+  <a class="card" href="Student Database/">
+    <h3>👨‍🎓 Student Records</h3>
+    <p>Manage student data</p>
+  </a>
+
+  <a class="card" href="Staff Management System/">
+    <h3>👩‍🏫 Staff Management</h3>
+    <p>Teacher & staff records</p>
+  </a>
+
+  <a class="card" href="Exam & Result Management System/">
+    <h3>📑 Exams & Results</h3>
+    <p>Marks & report cards</p>
+  </a>
+
+  <a class="card" href="Homework & Assignment Management/">
+    <h3>📚 Homework System</h3>
+    <p>Assignments & submissions</p>
+  </a>
+
+  <a class="card" href="Official Messaging System/">
+    <h3>💬 Messaging</h3>
+    <p>Internal communication</p>
+  </a>
+
+  <a class="card" href="Parent–Teacher Meeting (PTM)/">
+    <h3>👨‍👩‍👧 PTM</h3>
+    <p>Parent-teacher meetings</p>
+  </a>
+
+  <a class="card" href="Annual Implementation Plan (AIP)/">
+    <h3>📈 AIP</h3>
+    <p>Planning & execution</p>
+  </a>
+
+</div>
+
+<div class="footer">
+  © 2026 GGHSS Khanyar • Smart School System 🚀
+</div>
+
+</body>
+</html>
